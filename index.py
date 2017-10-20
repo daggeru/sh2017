@@ -6,15 +6,31 @@ import falcon
 class GeneratorPiosenki:
     def on_get(self, req, resp):
         tekst = {
-            'quote': (
-                "I've always been more interested in "
-                "the future than in the past."
-            ),
-            'author': 'Grace Hopper'
+            'zwr1': {
+                '1': 'pierwsza linijka',
+                '2': 'druga linijka',
+                '3': 'trzecia linijka',
+                '4': 'czwarta linijka'
+            },
+            'ref': {
+                '1': 'pierwsza linijka refrenu',
+                '2': 'druga linijka refrenu',
+                '3': 'trzecia linijka refrenu',
+                '4': 'czwarta linijka refrenu'
+            },
+            'zwr2': {
+                '1': 'pierwsza linijka 2 zwrotki',
+                '2': 'druga linijka 2 zwrotki',
+                '3': 'trzecia linijka 2 zwrotki',
+                '4': 'czwarta linijka 2 zwrotki'
+            },
+            'prz': {
+                '1': 'pierwsza linijka przejscia',
+                '2': 'druga linijka przejscia',
+            }
         }
 
         resp.media = tekst
-
 
 api = falcon.API()
 api.add_route('/', GeneratorPiosenki())

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SUPERawesomeSONGgenerator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static './index.css' %}">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            function load() {
+                $.ajax({
+                    'type': 'GET',
+                    'dataType': 'json',
+                    'url': 'http://127.0.0.1:8000',
+                    'success':
+                        console.log('hello')
+                })
+            }
+            load()
+        })
+    </script>
+</head>
+<body>
+</body>
+</html>
