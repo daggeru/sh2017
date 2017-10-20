@@ -14,7 +14,7 @@ class Index:
 class GeneratorPiosenki:
     def on_get(self, req, resp):
         tekst = {
-            'zwrotki': [
+            'zwrotki''tekst_disco.txt': [
                 'pierwsza linijka#1\ndruga linijka#1\ntrzecia linijka#1\nczwarta linijka#1',
                 'pierwsza linijka#2\ndruga linijka#2\ntrzecia linijka#2\nczwarta linijka#2',
                 'pierwsza linijka#3\ndruga linijka#3\ntrzecia linijka#3\nczwarta linijka#3'
