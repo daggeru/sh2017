@@ -1,5 +1,14 @@
 from wsgiref.simple_server import make_server
+
 import falcon
+
+
+class Index:
+    def on_get(self, req, resp):
+        resp.status = falcon.HTTP_200
+        resp.content_type = 'text/html'
+        with open('index.html', 'r') as f:
+            resp.body = f.read()
 
 
 class GeneratorPiosenki:
@@ -31,8 +40,10 @@ class GeneratorPiosenki:
 
         resp.media = tekst
 
+
 api = falcon.API()
-api.add_route('/', GeneratorPiosenki())
+api.add_route('/', Index())
+api.add_route('/generuj', GeneratorPiosenki())
 
 if __name__ == '__main__':
     port = 8000
