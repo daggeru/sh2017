@@ -14,28 +14,15 @@ class Index:
 class GeneratorPiosenki:
     def on_get(self, req, resp):
         tekst = {
-            'zwr1': {
-                '1': 'pierwsza linijka',
-                '2': 'druga linijka',
-                '3': 'trzecia linijka',
-                '4': 'czwarta linijka'
-            },
-            'ref': {
-                '1': 'pierwsza linijka refrenu',
-                '2': 'druga linijka refrenu',
-                '3': 'trzecia linijka refrenu',
-                '4': 'czwarta linijka refrenu'
-            },
-            'zwr2': {
-                '1': 'pierwsza linijka 2 zwrotki',
-                '2': 'druga linijka 2 zwrotki',
-                '3': 'trzecia linijka 2 zwrotki',
-                '4': 'czwarta linijka 2 zwrotki'
-            },
-            'prz': {
-                '1': 'pierwsza linijka przejscia',
-                '2': 'druga linijka przejscia',
-            }
+            'zwrotki': [
+                'pierwsza linijka#1\ndruga linijka#1\ntrzecia linijka#1\nczwarta linijka#1',
+                'pierwsza linijka#2\ndruga linijka#2\ntrzecia linijka#2\nczwarta linijka#2',
+                'pierwsza linijka#3\ndruga linijka#3\ntrzecia linijka#3\nczwarta linijka#3'
+            ],
+            'refreny': [
+                'pierwsza linijkaREF#1\ndruga linijkaREF#1\ntrzecia linijkaREF#1\nczwarta linijkaREF#1',
+                'pierwsza linijkaREF#2\ndruga linijkaREF#2\ntrzecia linijkaREF#2\nczwarta linijkaREF#2'
+            ]
         }
 
         resp.media = tekst
