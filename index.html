@@ -14,8 +14,11 @@
                     'type': 'GET',
                     'dataType': 'json',
                     'url': 'http://127.0.0.1:8000',
-                    'success':
-                        console.log('hello')
+                    'success': function (data) {
+                        $.each(data.ref, function(){
+                            var selector = 'ref' + this
+                        })
+                    }
                 })
             }
             load()
