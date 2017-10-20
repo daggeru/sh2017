@@ -13,7 +13,7 @@
                 $.ajax({
                     'type': 'GET',
                     'dataType': 'json',
-                    'url': 'http://127.0.0.1:8000',
+                    'url': 'http://127.0.0.1:8000/generuj',
                     'success': function (data) {
                         $.each(data.ref, function(){
                             var selector = 'ref' + this
