@@ -6,7 +6,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="{% static './index.css' %}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
     <script type="text/javascript">
         $(document).ready(function () {
             function load() {
@@ -14,14 +14,22 @@
                     'type': 'GET',
                     'dataType': 'json',
                     'url': 'http://127.0.0.1:8000/generuj',
-                    'success':
-                        console.log('hello')
+                    'success': function (data) {
+                        for (i = 0; i < data.zwrotki.length; i++) {
+                            $.each(data.zwrotki[i], function(){
+                                console.log(this);
+                                console.log(data.refren[0])
+                            });
+                        }
+                    }
                 })
             }
+
             load()
         })
     </script>
 </head>
 <body>
+<h2>Generator Tekstu DiscoPolo:</h2>
 </body>
 </html>
