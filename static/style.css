@@ -1,21 +1,36 @@
 h1 {
-    color: red;
+    color: white;
     background-color: lightblue;
+    font-size: 25px;
+
 }
 h2 {
     color: blueviolet;
+    background-color: #e6544c;
+    font-size: 25px;
+
 }
 h3 {
     color: green;
-    font-family: verdana;
-    font-size: 20px;
+    font-size: 25px;
+    background-color: #e6489e;
+
 }
 h4 {
     color: orange;
+    background-color: #c1e634;
+    font-size: 25px;
+
 }
 h5 {
     color: yellow;
+    background-color: #6a34e6;
+    font-size: 25px;
+
 }
 h6 {
     color: lightseagreen;
+    background-color: #e66a6a;
+    font-size: 25px;
+
 }
