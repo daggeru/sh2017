@@ -35,8 +35,8 @@ Jesteś <p_k>
 
 Na pożegnanie dajesz mi <p_n> <r>
 Gdy odchodzisz, wszystko burzy się
-Kochałem Cię i Twe szaleństwa mocno tak
-Ty się śmiałaś zawsze no i cześć
+Kochałem Cię i Twe <p_n> szaleństwa
+Ty się śmiałaś zawsze
 
 Pada <r>, wieje <r>
 Znowu dziś jesteś sam
@@ -53,7 +53,7 @@ po co <r>, po co łzy
 wszyscy kiedyś znajdą się
 tak już na tym świecie jest
 ona przyjdzie pod Twoje drzwi
-odtąd będziesz miał piękne sny
+odtąd będziesz miał piękne <r>
 Szarość Dnia i zimny pokój
 Zapomnieć Już czas
 
@@ -68,13 +68,13 @@ Między prostą a zakrętem
 Utraciłem myśli swoje,
 Kocham szczerze, lecz w odmęcie
 Tej miłości gubię drogi
-Może znajdziesz lek na moje utrapienie
+Może znajdziesz lek na mój <r>
 Może dasz mi tę ostatnią nadzieję
 
 Już sobota, <r> się zaczyna
 Myśli krążą w głowie <p_k> dziewczyna
 Już niedługo będzie tylko twoja
-Pójdzie jak po lodzie potem <r> w samochodzie...
+Pójdzie jak po lodzie, potem <r> w samochodzie...
 
 Hej, co za <r>!
 Jesteś tylko dla niej bujasz ją
@@ -84,19 +84,19 @@ Potem cześć, a w myślach spadaj <r>
 A teraz łapy w górę, ti dabu dibu daj
 <r> dziś baluje, ti dabu dibu daj
 Bo tutaj nic nie boli, ti dabu dibu daj
-Się w tańcu nie certoli ti dabu dibu daj
+Się w tańcu nie certoli, ti dabu dibu daj
 
-To nie koniec dyski <r> nie siada
+To nie koniec dyski, <r> nie siada
 To początek imprezy, <p_k> jest zabawa
 Wszyscy tańczą, skaczą i śpiewają
 To <r> szaleje mocne driny grzeje
 
-Bo <r> jest jak <r> co świat obiega
+Bo <r> jest jak <r> co <r> obiega
 I nie zamkniesz przed nią drzwi, bo niby jak?
-Da Ci <r> ten pierwszy znak i zaczynasz śpiewać
-Bo pięknieją wtedy sny, pięknieje <r>
+Da Ci <r> ten pierwszy <r> i zaczynasz śpiewać
+Bo pięknieją wtedy <r>, pięknieje <r>
 
-Już noc zapadła i gwiazdy świecą
+Już noc zapadła i <r> świecą
 <r> wita mnie
-Wzrok w szybę wlepiam a <r> leci
+Wzrok w <r> wlepiam a <r> leci
 Tam gdzie na pewno chcę
