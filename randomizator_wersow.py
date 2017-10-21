@@ -1,11 +1,13 @@
 import random
 import re
-import przymiotniki
+
+from wyrazy import przymiotniki, rzeczowniki
 
 
 class RandomizatorWersow:
     ustawienia = {
-        'otak': 0.3
+        'otak': 0.2,
+        'no_i_czesc': 0.2
     }
 
     def otak(self, wers):
@@ -14,15 +16,23 @@ class RandomizatorWersow:
         else:
             return wers
 
-    def zamien_przymiotniki(self, wers):
+    def no_i_czesc(self, wers):
+        if random.random() < self.ustawienia['no_i_czesc']:
+            return wers + ', no i cześć!'
+        else:
+            return wers
+
+    def wstaw_wyraz(self, wers):
         wers = re.sub(r"<p_n>", random.choice(przymiotniki.przymiotniki_n), wers)
         wers = re.sub(r"<p_k>", random.choice(przymiotniki.przymiotniki_k), wers)
+        wers = re.sub(r"<r>", random.choice(rzeczowniki.rzeczowniki), wers)
         return wers
 
     def randomizuj_wers(self, wers):
         randomizatory = []
         randomizatory.append(self.otak)
-        randomizatory.append(self.zamien_przymiotniki)
+        randomizatory.append(self.no_i_czesc)
+        randomizatory.append(self.wstaw_wyraz)
 
         for randomizator in randomizatory:
             wers = randomizator(wers)
