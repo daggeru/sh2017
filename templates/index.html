@@ -15,12 +15,14 @@
                     'dataType': 'json',
                     'url': 'http://127.0.0.1:8000/generuj',
                     'success': function (data) {
-                        $.each(data.ref, function(){
-                            var selector = 'ref' + this
-                        })
+                        for (i = 0; i < data.zwrotki.length; i++) {
+                            alert('p');
+                            alert(data.zwrotki[i]);
+                        }
                     }
                 })
             }
+
             load()
         })
     </script>
