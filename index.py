@@ -27,7 +27,8 @@ def generuj():
 
 
 if __name__ == '__main__':
-    port = 8000
-    httpd = make_server('', port, app)
-    print("Serving on port %s..." % port)
-    httpd.serve_forever()
+    app.run(debug=True)
+    # port = 8000
+    # httpd = make_server('', port, app)
+    # print("Serving on port %s..." % port)
+    # httpd.serve_forever()
