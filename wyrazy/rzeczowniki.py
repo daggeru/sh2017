@@ -12,6 +12,12 @@ rzeczowniki = [
     'sens',
     'róża',
     'bajka',
+    'ja',
+    'słońce',
+    'burza',
+    'kwiat',
+    'myśl',
+    'muza',
     'deszcz',
     'wiatr',
 ]
