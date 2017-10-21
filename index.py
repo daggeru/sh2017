@@ -15,9 +15,9 @@ class GeneratorPiosenki:
     def on_get(self, req, resp):
         tekst = {
             'zwrotki': [
-                ['pierwsza linijka', 'druga linijka', 'trzecia linijka', 'czwarta linijka'],
-                ['pierwsza linijka', 'druga linijka', 'trzecia linijka', 'czwarta linijka'],
-                ['pierwsza linijka', 'druga linijka', 'trzecia linijka', 'czwarta linijka'],
+                ['pierwsza linijka1', 'druga linijka', 'trzecia linijka', 'czwarta linijka'],
+                ['pierwsza linijka2', 'druga linijka', 'trzecia linijka', 'czwarta linijka'],
+                ['pierwsza linijka3', 'druga linijka', 'trzecia linijka', 'czwarta linijka'],
             ],
             'refreny': [
                 ['pierwsza linijka', 'druga linijka', 'trzecia linijka', 'czwarta linijka'],
