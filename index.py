@@ -20,7 +20,10 @@ def generuj():
             ['pierwsza linijka3', 'druga linijka3', 'trzecia linijka3', 'czwarta linijka3'],
         ],
         'refren': [
-            ['pierwsza linijka refrenu', 'druga linijka refrenu', 'trzecia linijka refrenu', 'czwarta linijka refrenu'],
+            'pierwsza linijka refrenu',
+            'druga linijka refrenu',
+            'trzecia linijka refrenu',
+            'czwarta linijka refrenu'
         ]
     }
     return json.dumps(tekst)
