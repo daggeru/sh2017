@@ -16,19 +16,28 @@
                     'url': 'http://127.0.0.1:5000/generuj',
                     'success': function (data) {
                         for (i = 0; i < data.zwrotki.length; i++) {
+                            $('.disco').append('<div class="z"><p>Zwrotka</p></div>');
+                            $('.z').hide().delay(1000*(Math.floor((Math.random() * 6) + 1))).fadeIn(1000);
+
                             for (k = 0; k < data.zwrotki[i].length; k++) {
                                 a = Math.floor((Math.random() * 6) + 1);
+                                a2 = 1000 * (i + k);
                                 $('.disco').append(
-                                    '<h' + a + '>' + data.zwrotki[i][k] + '</h' + a + '>'
-                                ).hide().fadeIn(1000);
-                                console.log(data.zwrotki[i][k]);
+                                    '<div class=k' + i + k + '>' +
+                                    '<h' + a + '>' + data.zwrotki[i][k] + '</h' + a + '></div>'
+                                );
+                                $('.k' + i + k).hide().delay(a2).fadeIn(1000);
                             }
+                            $('.disco').append('<div class="r"><p>Refren</p></div>');
+                            $('.r').hide().delay(1000*(Math.floor((Math.random() * 6) + 1))).fadeIn(1000);
                             for (j = 0; j < data.refren.length; j++) {
                                 b = Math.floor((Math.random() * 6) + 1);
+                                b2 = 1000 * (j + i + k);
                                 $('.disco').append(
-                                    '<h' + b + '>' + data.refren[j] + '</h' + b + '>'
-                                ).hide().fadeIn(1000);
-                                console.log(data.refren[j]);
+                                    '<div class=j' + j + '>' +
+                                    '<h' + b + '>' + data.refren[j] + '</h' + b + '></div>'
+                                );
+                                $('.j' + j).hide().fadeIn(1000);
                             }
                         }
                     }
