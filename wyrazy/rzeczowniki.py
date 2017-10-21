@@ -11,5 +11,7 @@ rzeczowniki = [
     'prawda',
     'sens',
     'róża',
-    'bajka'
+    'bajka',
+    'deszcz',
+    'wiatr',
 ]

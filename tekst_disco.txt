@@ -38,7 +38,7 @@ Gdy odchodzisz, wszystko burzy się.
 Kochałem Cię i Twe szaleństwa mocno tak.
 Ty się śmiałaś zawsze no i cześć.
 
-Pada deszcz, wieje wiatr
+Pada <r>, wieje <r>
 Znowu dziś jesteś sam
 Nawet sen nie chce przyjść
 Byłaś w nich tylko Ty

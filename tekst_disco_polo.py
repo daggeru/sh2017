@@ -1,4 +1,5 @@
 import random
+from randomizator_wersow import RandomizatorWersow
 
 
 class TekstDiscoPolo:
@@ -31,11 +32,11 @@ class TekstDiscoPolo:
         for i in range(ilosc_zwrotek):
             zwrotka = []
             for i in range(0, 4):
-                zwrotka.append(random.choice(self.wersy))
+                zwrotka.append(self.daj_losowy_wers())
             zwrotki.append(zwrotka)
         piosenka['zwrotki'] = zwrotki
         for i in range(0, 4):
-            piosenka['refren'].append(random.choice(self.wersy))
+            piosenka['refren'].append(self.daj_losowy_wers())
         return piosenka
 
     def generator_tekstu(self):

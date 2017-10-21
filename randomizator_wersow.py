@@ -25,14 +25,16 @@ class RandomizatorWersow:
     def wstaw_wyraz(self, wers):
         wers = re.sub(r"<p_n>", random.choice(przymiotniki.przymiotniki_n), wers)
         wers = re.sub(r"<p_k>", random.choice(przymiotniki.przymiotniki_k), wers)
-        wers = re.sub(r"<r>", random.choice(rzeczowniki.rzeczowniki), wers)
+        for _ in range(len(re.findall(r"<r>", wers))):
+            wers = re.sub(r"<r>", random.choice(rzeczowniki.rzeczowniki), wers)
         return wers
 
     def randomizuj_wers(self, wers):
-        randomizatory = []
-        randomizatory.append(self.otak)
-        randomizatory.append(self.no_i_czesc)
-        randomizatory.append(self.wstaw_wyraz)
+        randomizatory = [
+            self.otak,
+            self.no_i_czesc,
+            self.wstaw_wyraz
+        ]
 
         for randomizator in randomizatory:
             wers = randomizator(wers)
