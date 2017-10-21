@@ -17,7 +17,7 @@ rzeczowniki = [
     'burza',
     'kwiat',
     'myśl',
-    'muza'
+    'muza',
     'deszcz',
     'wiatr',
 ]
