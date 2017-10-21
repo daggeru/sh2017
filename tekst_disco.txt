@@ -1,16 +1,16 @@
 Odkąd zobaczyłem ciebie
 Nie mogę jeść, nie mogę spać
 Jak do tego doszło, nie wiem?
-Miłość o sobie dała znać
+Miłość <p_n> o sobie dała znać
 
 Co poradzić mogę na to
 Że miłość przyszła właśnie dziś
 Że w sercu mym jest lato
 A w moich myślach jesteś ty
 
-Przez twe oczy, te oczy zielone oszalałem
+Przez twe oczy, te oczy <p_n> oszalałem
 Gwiazdy chyba twym oczom oddały cały blask
-A ja serce miłości spragnione ci oddałem
+A ja serce miłości <p_n> ci oddałem
 Tak zakochać, zakochać się można tylko raz
 
 W mych ramionach cię ukryję
@@ -23,22 +23,17 @@ I moje serce gubi rytm
 O twą miłość będę walczył
 O miłość walczyć to nie wstyd
 
-Przez twe oczy, te oczy zielone oszalałem
-Gwiazdy chyba twym oczom oddały cały blask
-A ja serce miłości spragnione ci oddałem
-Tak zakochać, zakochać się można tylko raz
-
 "Miłość odchodzi" - słyszę znów z Twoich ust.
 Zawsze prawda miała jakiś sens.
-Te dni jak bajka, piękne jak tysiąc róż.
+Te dni jak bajka, <p_n> jak tysiąc róż.
 Ty się śmiałaś zawsze no i cześć.
 
-Ref.: Jesteś szalona, mówię Ci.
+Jesteś <p_k>, mówię Ci.
 Zawsze nią byłaś, skończ już wreszcie śnić.
-Nie jesteś aniołem, mówię Ci.
-Jesteś szalona.
+Nie jesteś <p_k>, mówię Ci.
+Jesteś <p_k>.
 
-Na pożegnanie dajesz mi uśmiech swój.
+Na pożegnanie dajesz mi <p_n> uśmiech.
 Gdy odchodzisz, wszystko burzy się.
 Kochałem Cię i Twe szaleństwa mocno tak.
 Ty się śmiałaś zawsze no i cześć.
