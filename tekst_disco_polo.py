@@ -15,16 +15,21 @@ class TekstDiscoPolo:
                 self.wersy.append(linijka)
         return self.wersy
 
-    def wrzucanie_do_jsona(self, wersy):
+    def generuj_piosenke(self, ilosc_zwrotek):
         piosenka = {
-            'zwrotki': [],
-            'refren': []
+            'refren': [],
+            'zwrotki':[]
         }
-
-        for i in range(0, 4):
-            piosenka['zwrotki'].append(random.choice(wersy))
+        zwrotki = []
+        for i in range(ilosc_zwrotek):
+            zwrotka =[]
+            for i in range(0, 4):
+                zwrotka.append(random.choice(wersy))
+            zwrotki.append(zwrotka)
+        piosenka['zwrotki'] = zwrotki
         for i in range(0, 4):
             piosenka['refren'].append(random.choice(wersy))
+
         return piosenka
 
     def generator_tekstu(self):
@@ -36,6 +41,4 @@ class TekstDiscoPolo:
 
 instancja = TekstDiscoPolo()
 wersy = instancja.wczytaj_tekst('tekst_disco.txt')
-# print(wersy)
-# print(instancja.generator_tekstu())
-print(instancja.wrzucanie_do_jsona(wersy))
+print(instancja.generuj_piosenke(3))
