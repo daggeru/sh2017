@@ -24,7 +24,7 @@
                                 a2 = 1000 * (i + k);
                                 $('.disco').append(
                                     '<div class=k' + i + k + '>' +
-                                    '<h' + a + '>' + data.zwrotki[i][k] + '</h' + a + '></div>'
+                                    '<h' + a + ' class="stroke">' + data.zwrotki[i][k] + '</h' + a + '></div>'
                                 );
                                 $('.k' + i + k).hide().delay(a2).fadeIn(1000);
                             }
@@ -35,7 +35,7 @@
                                 b2 = 1000 * (j + i + k);
                                 $('.disco').append(
                                     '<div class=j' + j + '>' +
-                                    '<h' + b + '>' + data.refren[j] + '</h' + b + '></div>'
+                                    '<h' + b + ' class="stroke">' + data.refren[j] + '</h' + b + '></div>'
                                 );
                                 $('.j' + j).hide().delay(b2).fadeIn(1000);
                             }
@@ -51,7 +51,7 @@
 <body>
 <h2 style="font-size: 30px;">Generator Tekstu DiscoPolo:</h2>
 <div style="margin: 0 auto;" class="disco">
-
+<div id="tekst"></div>
 </div>
 </body>
 </html>

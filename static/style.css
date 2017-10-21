@@ -53,3 +53,11 @@ h6 {
     font-size: 21px;
     margin: 0;
 }
+
+.stroke {
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}

@@ -1,5 +1,4 @@
 rzeczowniki = [
-    'ty',
     'miłość',
     'lato',
     'świat',

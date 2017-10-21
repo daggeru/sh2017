@@ -6,8 +6,8 @@ from wyrazy import przymiotniki, rzeczowniki
 
 class RandomizatorWersow:
     ustawienia = {
-        'otak': 0.2,
-        'no_i_czesc': 0.2
+        'otak': 0.1,
+        'no_i_czesc': 0.1
     }
 
     def otak(self, wers):
