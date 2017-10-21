@@ -14,25 +14,22 @@ class TekstDiscoPolo:
             if not linijka == '':
                 self.wersy.append(linijka)
 
-
-    def generuj_piosenke(self, ilosc_zwrotek):
-
+    def generuj_piosenke(self, ilosc_zwrotek=4):
         piosenka = {
             'refren': [],
-            'zwrotki':[]
+            'zwrotki': []
         }
 
         zwrotki = []
         for i in range(ilosc_zwrotek):
-            zwrotka =[]
+            zwrotka = []
             for i in range(0, 4):
-                zwrotka.append(random.choice(wersy))
+                zwrotka.append(random.choice(self.wersy))
             zwrotki.append(zwrotka)
         piosenka['zwrotki'] = zwrotki
         for i in range(0, 4):
-            piosenka['refren'].append(random.choice(wersy))
-
-
+            piosenka['refren'].append(random.choice(self.wersy))
+        return piosenka
 
     def generator_tekstu(self):
         str = ""
@@ -40,8 +37,8 @@ class TekstDiscoPolo:
             str += (''.join(wers))
         return str
 
-
-instancja = TekstDiscoPolo()
-
-instancja.wczytaj_tekst('tekst_disco.txt')
-
+#
+#
+# instancja = TekstDiscoPolo()
+#
+# instancja.wczytaj_tekst('tekst_disco.txt')
