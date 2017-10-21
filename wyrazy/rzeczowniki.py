@@ -20,4 +20,5 @@ rzeczowniki = [
     'muza',
     'deszcz',
     'wiatr',
+    'czas',
 ]
