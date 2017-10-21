@@ -12,6 +12,7 @@ class TekstDiscoPolo:
         self.wersy = []
         for linijka in linijki_tekstu:
             linijka = linijka.rstrip()
+            linijka = linijka.rstrip('.')
             if not linijka == '':
                 self.wersy.append(linijka)
 
@@ -43,8 +44,6 @@ class TekstDiscoPolo:
         for wers in self.wersy:
             str += (''.join(wers))
         return str
-
-
 
 #
 #

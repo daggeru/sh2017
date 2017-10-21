@@ -18,4 +18,6 @@ rzeczowniki = [
     'kwiat',
     'myśl',
     'muza'
+    'deszcz',
+    'wiatr',
 ]
