@@ -7,6 +7,10 @@ przymiotniki_k = [
     'niezrozumiała',
     'nieznośna',
     'spragniona',
+    'głodna',
+    'niewyspana',
+    'rozczochrana',
+    'ułożona'
 ]
 przymiotniki_n = [
     'szalone',
@@ -17,4 +21,11 @@ przymiotniki_n = [
     'niezrozumiałe',
     'nieznośne',
     'spragnione',
+    'złote',
+    'smutne',
+    'wesołe',
+    'miłe',
+    'brązowe',
+    'niebieskie',
+    'słoneczne'
 ]

@@ -11,5 +11,11 @@ rzeczowniki = [
     'prawda',
     'sens',
     'róża',
-    'bajka'
+    'bajka',
+    'ja',
+    'słońce',
+    'burza',
+    'kwiat',
+    'myśl',
+    'muza'
 ]

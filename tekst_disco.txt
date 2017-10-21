@@ -16,31 +16,31 @@ Tak zakochać, zakochać się można tylko raz
 W mych ramionach cię ukryję
 U stóp Ci złożę cały <r>
 <r> me dla ciebie bije
-I czeka na twój mały <r>.
+I czeka na twój mały <r>
 
 Jeden <r> twój wystarczy
 I moje <r> gubi <r>
 O twą miłość będę walczył
 O miłość walczyć to nie <r>
 
-"<r> odchodzi" - słyszę znów z Twoich ust.
-Zawsze <r> miała jakiś <r>.
-Te dni jak <r>, <p_n> jak tysiąc róż.
-Ty się śmiałaś zawsze no i cześć.
+"<r> odchodzi" - słyszę znów z Twoich ust
+Zawsze <r> miała jakiś <r>
+Te dni jak <r>, <p_n> jak tysiąc róż
+Ty się śmiałaś zawsze no i cześć
 
-Jesteś <p_k>, mówię Ci.
-Zawsze nią byłaś, skończ już wreszcie śnić.
-Nie jesteś <p_k>, mówię Ci.
-Jesteś <p_k>.
+Jesteś <p_k>, mówię Ci
+Zawsze nią byłaś, skończ już wreszcie śnić
+Nie jesteś <p_k>, mówię Ci
+Jesteś <p_k>
 
-Na pożegnanie dajesz mi <p_n> <r>.
-Gdy odchodzisz, wszystko burzy się.
-Kochałem Cię i Twe szaleństwa mocno tak.
-Ty się śmiałaś zawsze no i cześć.
+Na pożegnanie dajesz mi <p_n> <r>
+Gdy odchodzisz, wszystko burzy się
+Kochałem Cię i Twe szaleństwa mocno tak
+Ty się śmiałaś zawsze no i cześć
 
-Pada deszcz, wieje wiatr
+Pada <r>, wieje <r>
 Znowu dziś jesteś sam
-Nawet sen nie chce przyjść
+Nawet <r> nie chce przyjść
 Byłaś w nich tylko Ty
 Już nie przyjdzie pod twe drzwi
 Pozostały po niej łzy
@@ -49,7 +49,7 @@ na pamięć to znasz
 
 
 Wcale tak nie musi być
-po co smutek, po co łzy
+po co <r>, po co łzy
 wszyscy kiedyś znajdą się
 tak już na tym świecie jest
 ona przyjdzie pod Twoje drzwi
@@ -58,7 +58,7 @@ Szarość Dnia i zimny pokój
 Zapomnieć Już czas
 
 Gdzieś na pewno tli się jeszcze
-Żal co w sercu miłość wzbudzi
+<r> co w sercu miłość wzbudzi
 Spróbuj spojrzeć na mnie czulej
 To pomoże nie zaszkodzi
 Może znajdziesz lek na moje utrapienie
@@ -71,33 +71,22 @@ Tej miłości gubię drogi
 Może znajdziesz lek na moje utrapienie
 Może dasz mi tę ostatnią nadzieję
 
-Już sobota, wieczór się zaczyna
-Myśli krążą w głowie odjazdowa dziewczyna
+Już sobota, <r> się zaczyna
+Myśli krążą w głowie <p_k> dziewczyna
 Już niedługo będzie tylko twoja
-Pójdzie jak po lodzie potem muza w samochodzie...
+Pójdzie jak po lodzie potem <r> w samochodzie...
 
-Hej, co za noc!
+Hej, co za <r>!
 Jesteś tylko dla niej bujasz ją
 Będziesz mocno bulił aż do rana
-Potem cześć, a w myślach spadaj mała
+Potem cześć, a w myślach spadaj <r>
 
 A teraz łapy w górę, ti dabu dibu daj
-Publika dziś baluje, ti dabu dibu daj
+<r> dziś baluje, ti dabu dibu daj
 Bo tutaj nic nie boli, ti dabu dibu daj
-Się w tańcu nie pierdoli ti dabu dibu daj
+Się w tańcu nie certoli ti dabu dibu daj
 
-To nie koniec dyski nikt nie siada
-To początek imprezy wesoła jest zabawa
+To nie koniec dyski <r> nie siada
+To początek imprezy, <p_k> jest zabawa
 Wszyscy tańczą, skaczą i śpiewają
-To publika szaleje mocne driny grzeje
-
-Hej, co za noc!
-Jesteś tylko dla niej bujasz ją
-Będziesz mocno bulił aż do rana
-Potem cześć, a w myślach spadaj mała
-
-A teraz łapy w górę ti dabu dibu daj
-Publika dziś baluje ti dabu dibu daj
-Bo tutaj nic nie boli ti dabu dibu daj
-Się w tańcu nie pierdoli ti dabu dibu daj
-
+To <r> szaleje mocne driny grzeje
