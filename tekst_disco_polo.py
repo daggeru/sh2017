@@ -1,6 +1,5 @@
 import random
 
-
 class TekstDiscoPolo:
     def __init__(self):
         self.wersy = []
@@ -11,6 +10,7 @@ class TekstDiscoPolo:
         self.wersy = []
         for linijka in linijki_tekstu:
             linijka = linijka.rstrip()
+            linijka = linijka.rstrip('.')
             if not linijka == '':
                 self.wersy.append(linijka)
 
@@ -31,14 +31,5 @@ class TekstDiscoPolo:
             piosenka['refren'].append(random.choice(self.wersy))
         return piosenka
 
-    def generator_tekstu(self):
-        str = ""
-        for wers in self.wersy:
-            str += (''.join(wers))
-        return str
 
-#
-#
-# instancja = TekstDiscoPolo()
-#
-# instancja.wczytaj_tekst('tekst_disco.txt')
+
