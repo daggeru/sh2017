@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import render_template
-from wsgiref.simple_server import make_server
+from tekst_disco_polo import TekstDiscoPolo
 import json
 
 app = Flask(__name__)
@@ -13,22 +13,11 @@ def index():
 
 @app.route('/generuj')
 def generuj():
-    tekst = {
-        'zwrotki': [
-            ['pierwsza linijka1', 'druga linijka1', 'trzecia linijka1', 'czwarta linijka1'],
-            ['pierwsza linijka2', 'druga linijka2', 'trzecia linijka2', 'czwarta linijka2'],
-            ['pierwsza linijka3', 'druga linijka3', 'trzecia linijka3', 'czwarta linijka3'],
-        ],
-        'refren':
-            ['pierwsza linijka refrenu', 'druga linijka refrenu', 'trzecia linijka refrenu', 'czwarta linijka refrenu'],
-
-    }
-    return json.dumps(tekst)
+    tekst = TekstDiscoPolo()
+    tekst.wczytaj_tekst('tekst_disco.txt')
+    tekst_dict = tekst.generuj_piosenke(4)
+    return json.dumps(tekst_dict)
 
 
 if __name__ == '__main__':
     app.run(debug=True)
-    # port = 8000
-    # httpd = make_server('', port, app)
-    # print("Serving on port %s..." % port)
-    # httpd.serve_forever()
