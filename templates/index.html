@@ -20,7 +20,7 @@
                                 a = Math.floor((Math.random() * 6) + 1);
                                 $('.disco').append(
                                     '<h' + a + '>' + data.zwrotki[i][k] + '</h' + a + '>'
-                                ).hide().fadeIn(1000);
+                                ).slideDown(4000).delay(800);
                                 console.log(data.zwrotki[i][k]);
 
                             }
@@ -28,7 +28,7 @@
                                 b = Math.floor((Math.random() * 6) + 1);
                                 $('.disco').append(
                                     '<h' + b + '>' + data.refren[j] + '</h' + b + '>'
-                                ).hide().fadeIn(1000);
+                                ).slideDown(100).hide();
                                 console.log(data.refren[0][j]);
                             }
                         }
